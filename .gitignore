@@ -1,5 +1,5 @@
-node_modules/**
-cypress/videos/**
-cypress/screenshots/**
-cypress/logs/**
-package-lock.json
+cypress/videos/
+test-results.xml
+results/
+.DS_Store
+node_modules/
