@@ -1,6 +1,0 @@
-{
-    "baseUrl": "https://fado.vn/",
-    "env": {
-      "environment": "production"
-    }
-  }

@@ -1,23 +1,23 @@
 {
-  "name": "automation",
+  "name": "cypress-example-docker-circle-workflows",
   "version": "1.0.0",
-  "description": "",
+  "description": "> Cypress + Docker + CircleCI Workflows = ❤️",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "test": "node_modules\\.bin\\cypress run --env ENV_NAME=production",
-    "cy:development": "cypress open --env ENV_NAME=development",
-    "cy:stage": "cypress open --env ENV_NAME=stage",
-    "cy:production": "cypress open --env ENV_NAME=production",
-    "specTest": "npm run test --spec \"cypress/integration/page/checkoutPage/*\" --no-exit"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "TrinhNT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cypress-io/cypress-example-docker-circle-workflows.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cypress-io/cypress-example-docker-circle-workflows/issues"
+  },
+  "homepage": "https://github.com/cypress-io/cypress-example-docker-circle-workflows#readme",
   "devDependencies": {
-    "cypress": "7.4.0",
-    "path": "0.12.7",
-    "fs-extra": "10.0.0",
-    "cypress-failed-log": "2.9.1"
+    "cypress": "^7.5.0"
   }
 }
